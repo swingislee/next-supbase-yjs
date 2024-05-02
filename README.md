@@ -15,14 +15,14 @@ Before you begin, make sure you have the following:
 1. **Clone the Repository**  
    Start by cloning this repository to your local machine using:
    ```bash
-   git clone [repository-url]
+   git clone https://github.com/swingislee/next-supbase-yjs.git
    ```
 
 2. **Install Dependencies**
-  Navigate to the project directory and install the required dependencies:
-  ```bash
-   npm install
-  ```
+    Navigate to the project directory and install the required dependencies:
+    ```bash
+    npm install
+    ```
 
 3. **Configure Environment Variables**
   * Navigate to your project dashboard in Supabase.
@@ -42,7 +42,7 @@ Before you begin, make sure you have the following:
     INSERT INTO test_table (id, content) VALUES ('123e4567-e89b-12d3-a456-426614174000', NULL);
   ```
 5. **Run the Development Server**
-Launch your Next.js development server to see the setup page and verify that everything is configured correctly:
+  Launch your Next.js development server to see the setup page and verify that everything is configured correctly:
   ```bash
     npm run dev
   ```
